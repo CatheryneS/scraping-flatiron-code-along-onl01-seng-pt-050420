@@ -26,6 +26,7 @@ class Scraper
       course.schedule = post.css(".date").text.strip
       course.description = post.css("p").text.strip
     end
+    binding.pry 
   end
   
 end
