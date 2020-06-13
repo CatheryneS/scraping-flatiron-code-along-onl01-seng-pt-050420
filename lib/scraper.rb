@@ -33,6 +33,10 @@ class Scraper
     self.get_page.css(".post")
   end
   
+  def make_courses
+    self.get_courses.each do |post|
+      
+  end
 end
 
 Scraper.new.get_page
